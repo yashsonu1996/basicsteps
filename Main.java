@@ -1,4 +1,4 @@
-public class InsertionSortExample {  
+public class InsertionSort {  
     public static void insertionSort(int array[]) {  
         int n = array.length;  
         for (int j = 1; j < n; j++) {  
@@ -13,7 +13,7 @@ public class InsertionSortExample {
     }  
        
     public static void main(String a[]){    
-        int[] arr1 = {9,14,3,2,43,11,58,22};    
+        int[] arr1 = {9,14,11,58,22};    
         System.out.println("Before Insertion Sort");    
         for(int i:arr1){    
             System.out.print(i+" ");    

@@ -14,7 +14,7 @@ public class InsertionSort {
        
     public static void main(String a[]){    
         int[] arr1 = {9,14,11,58,22};    
-        System.out.println("Before Insertion Sort");    
+        System.out.println("Before");    
         for(int i:arr1){    
             System.out.print(i+" ");    
         }    
@@ -22,7 +22,7 @@ public class InsertionSort {
             
         insertionSort(arr1);//sorting array using insertion sort    
            
-        System.out.println("After Insertion Sort");    
+        System.out.println("After");    
         for(int i:arr1){    
             System.out.print(i+" ");    
         }    
